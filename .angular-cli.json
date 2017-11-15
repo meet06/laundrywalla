@@ -19,9 +19,22 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "assets/css/lib/bootstrap.min.css",
+        "assets/css/lib/bootstrap-theme.min.css",
+        "assets/css/select2.min.css",
+        "assets/css/select2-bootstrap.min.css",
+        "assets/css/font-awesome/css/font-awesome.min.css",
+        "assets/css/style.css",
+        "assets/css/responsivestyle.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/jquery.min.js",
+        "assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+        "assets/js/vendor/bootstrap.min.js",
+        "assets/js/select2.min.js",
+        "assets/js/jquery.prettyPhoto.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

@@ -1,0 +1,48 @@
+<section id="login">
+  <div class="container-fluid">
+    <div class="row"> 
+      <div class="col-sm-9">
+       <div class="aboutwrap text-center">
+           <div class="login-wrapper">
+          <div class="log">
+            <img src="assets/img/lock22.png" alt="lock" />
+          </div>
+          <div class="login-title text-center">
+            <p>Please enter following details:</p>
+          </div>
+          <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+            <div [innerHTML]="errorMsg "></div>
+            <div class="form-group">
+              <input type="text" class="form-control " name="email" placeholder="Email" ngModel email  required/>
+              <span class="logemail">*Please enter valid email</span>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" placeholder="Password" ngModel required/>
+              <span class="logpass">*Please enter valid password</span>
+            </div>
+            <button type="submit" id="submit2" class="btn login_button text-center" [disabled]="f.form.invalid">login</button>
+            <div class="form-group">
+              <!-- <div class="checkbox remberme">
+                <label>
+                  <input type="checkbox">Remember me</label>
+              </div> -->
+              <div class="frget_password">
+                <a routerLink="/forgot-password"><em>Forget password??</em></a>
+              </div>
+            </div>
+            <div class="separator_wrap">
+              <span class="separator">or</span>
+            </div>
+            <h4 class="register_now text-center"><a routerLink="/registration">Register now!</a></h4>
+          </form>
+        </div>   
+       </div> 
+      </div>
+      <div class="col-sm-3 clear-padding">
+        <div class="login-rgtoverlay">
+         <!--  <h2>About Us</h2> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

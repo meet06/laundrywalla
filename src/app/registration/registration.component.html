@@ -1,0 +1,83 @@
+<section id="signup" class="signupsec">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="signup_wrapper">
+        <div class="signup_icon">
+          <img src="assets/img/sign_icon-2.png" alt="signupicon" />
+        </div>
+        <div class="signup_heding text-center">
+          <p>Please enter following details:</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-push-6 col-sm-6 col-xs-12">
+            <div class="signup_form">
+              <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                <div [innerHTML]="errorMsg "></div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="name" placeholder="Full Name" ngModel required />
+                  <span class="signin-fstname">*Please enter your first name</span>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" placeholder="Email"  ngModel email required />
+                  <span class="signin-email">*Please enter your email id</span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="mobileNumber" placeholder="Mobile Number"  pattern = "^[7-9][0-9]{9}$" ngModel required />
+                    <span class="signin-lstname">*Please enter your last name</span>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" name="password" placeholder="Password" ngModel required />
+                  <span class="signin-pass">*Please enter your password</span>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password" ngModel required />
+                  <span class="signin-conpass">*Please enter your confirm password</span>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="terms-check">
+                  <label for="terms-check">
+                    I accept all the Terms & Conditions and privacy policies
+                  </label>
+                </div>
+                <button type="submit"  class="btn signup_button text-center" [disabled]="f.form.invalid">register</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-pull-1 col-sm-1 col-xs-12">
+            <div class="signup_separator">
+              <div class="separator_wrap">
+                <span class="separator">or</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-pull-7 col-sm-5 col-xs-12">
+            <div class="signup_section">
+              <h5>Sign Up with social media</h5>
+              <button type="button" class="signup_social">
+                <span class="icon"><i class="fa fa-facebook fbicon" aria-hidden="true"></i></span>
+                <span class="signup_withfb">SIGNU WITH FACEBOOK</span>
+              </button>
+              <div class="signup_content ">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an </p>
+                <h5>Dont have an account ?<p><a routerLink="/login">LOGIN NOW!</a></p></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--end of row-->
+    </div>
+   </div>
+   <div class="col-sm-3 clear-padding">
+      <div class="registration-rgtoverlay">
+         <!--  <h2>About Us</h2> -->
+      </div>
+    </div>
+      <!--end of row-->
+    </div>
+    <!--end of wrapper-->
+  </div>
+    
+  <!--end of container-->
+</section>
+<!--end of sign-->

@@ -1,0 +1,323 @@
+@media only screen and (max-width:1280px) {
+	#technology-course .nav.nav-pills.pills-bottom-border li {
+	  padding-right: 18px;
+	}
+}
+@media only screen and (max-width:1199px) {
+	#technology-course .pills-bottom-border li > a {
+	  padding: 5px 34px;
+	}
+
+	#institue-review .review-container-margin {
+	  width: 90%;
+	}
+
+	#institue-review .institue-border-bottom, #institue-review .reviews-pagination, #institue-review .institue-add-img {
+	  width: 95%;
+	}
+
+	#institute-dashboard .dashboard-notification {
+		width:100%;
+	}
+	
+	#institute-dashboard .membership-sec {
+	  margin: 0 auto;
+	  width: 60%;
+	}
+
+	#institute-dashboard .user-comment {
+	  width: 85%;
+	}
+
+	#institute-dashboard .inner-imagesec img {
+    	margin-top: 42px;
+	}
+
+	#technology-course .nav.nav-pills.pills-bottom-border li {
+	  padding-right: 18px;
+	}
+
+	.premimerbtn-sec {
+	  width: 450px;
+	}
+}
+
+@media only screen and (max-width:1024px){
+	.custom-width-1 {
+	  width: auto;
+	}
+
+	#home-banner .search-form-wrap .checkboxes .checkbox-title, .search-form-wrap .radiobtns .radio-title {
+	  width: 160px;
+	}
+	
+	.search-form-wrap .checkboxes .check-box, .search-form-wrap .radiobtns .radio-btn {
+	  padding: 0 10px;
+	  width: 160px;
+	}
+
+	.head-heading-sec > h4, .head-heading-sec > h5 {
+	  display: inline-block;
+	  padding: 19px 40px 5px 9px;
+	}
+
+	.custom-container {
+	  width:90%;
+	}
+
+	.pagination-sec .pagination > li > a, .pagination-sec .pagination > li > span {
+	  padding-bottom: 6px;
+	  padding-left: 8px;
+	  padding-right: 8px;
+	  padding-top: 6px;
+	}
+	.class-listing > li {
+	  margin-right: 10px;
+	   font-size: 13px;
+       font-weight: bold;
+	}
+}
+
+@media only screen and (max-width:991px){ 
+	#technology-course .nav.nav-pills.pills-bottom-border li {
+	  padding-right: 23px;
+	  display:inline-block !important;
+	}
+
+	#technology-course .pills-bottom-border li > a {
+	  padding: 5px 36px;
+	}
+
+	#technology-course .img-responsive.responsive-hide {
+	  display: none;
+	}
+
+	#technology-course .hide-img {
+		display:block;
+	}
+
+	#institue-review .review-container-margin {
+	  width: 100%;
+	}
+
+	#institue-review .institue-border-bottom, #institue-review .reviews-pagination, #institue-review .institue-add-img {
+	  width: 100%;
+	}
+
+	#institue-review .user-comment {
+	  width: 87%;
+	}
+
+	#about-institue .about-institue-content {
+	  width: 100%;
+	}
+
+	#institute-dashboard .title-list > li:last-child {
+	  padding-left: 15px;
+	}
+.dash-img-profile:hover .innerdash-img {
+  opacity: 1;
+  top: 40%;
+}
+	#institute-dashboard .membership-sec {
+	  margin: 0 auto;
+	  width: 75%;
+	}
+
+	.text-box-manag ul {
+	  display:inline-block;
+	  margin-left:-35px;
+	}
+
+	#institute-dashboard .user-comment {
+	  width: 82%;
+	}
+
+	#institute-dashboard .inner-imagesec img {
+    	margin-top: 28px;
+	}
+
+	#features-institue .features-institue-content li {
+	  width: 450px;
+	}
+
+	#technology-course .custom-width73 {
+	  width: 100%;
+	}
+
+	#technology-course .custom-width27 {
+	  width: 100%;
+	  margin-top:20px;
+	  clear:both;
+	  padding-top:20px;
+	}
+
+	.gall-margin-top {
+		margin-top:0px;
+	}
+
+	#institute-dashboard .responsive-div, #institute-dashboard .emailsec-border-top  {
+	  width: 530px;
+	}
+
+	.label-text-center {
+		text-align:center!important;
+	}
+	.btn-aling {
+  		margin-top:15px;
+	}
+
+	#institute-dashboard .current-plan {
+	  margin-left: 0px;
+	  padding: 5px;
+	  position: absolute;
+	  left: 0;
+	  top: 22px;
+	}
+
+	.tutor-check-margin {
+		width:350px;
+	}
+
+}
+
+@media only screen and (max-width:980px){
+	#nav-links .main-nav li a {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+
+	#home-banner  .search-form-wrap .checkboxes .checkbox-title, .search-form-wrap .radiobtns .radio-title {
+	  width: 23%;
+	}
+
+	#home-banner .search-form-wrap .checkboxes .check-box, .search-form-wrap .radiobtns .radio-btn {
+	  width: 19%;
+	}
+
+	footer .custom-width-1 {
+	  width: 27%;
+	}
+
+	footer .social-links.list-inline {
+	  margin-top: 42px;
+	  text-align: center;
+	}
+
+	footer .social-links.list-inline li {
+	  margin-bottom: 7px;
+	}
+
+	#premium-tutors .img-responsive.tutor-img {
+	  width: 100%;
+	}
+
+	#premium-tutors .tutor-name {
+	  margin-top: 20px;
+	}
+
+	#tution-courses .img-responsive.featured-img {
+	  margin-top: 20px;
+	}
+
+	#premium-tutors {
+	  padding-bottom: 40px;
+	}
+
+	 .head-heading-sec > h4 {
+	  padding-bottom: 0;
+	  padding-left: 9px;
+	  padding-right: 34px;
+	  padding-top: 19px;
+	}
+	.search-mid-sec.row {
+	  margin-left: 0px;
+	}
+	.search-chat-btn .btn-default {
+	  padding-left: 8px;
+	  padding-right: 8px;
+	}
+	.button-midsec .btn-default {
+	   margin-top: 12px;
+	}
+
+	/* Start: Registration form4 */	
+	#unique-feature-form4 .unique-feature-content li {
+		width: 247px;
+	}
+	.max-feature-sec > p {
+		padding-right: 70px;
+	}
+	/* End: Registration form4 */	
+	.addverstise-img {
+	  display: none;
+	}
+}	
+
+@media only screen and (max-width:900px) {
+	#nav-links .main-nav li a {
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  font-size: 15px;
+	}
+
+	#technology-course .nav.nav-pills.pills-bottom-border li {
+	  padding-right: 18px;
+	}
+
+	#technology-course .pills-bottom-border li > a {
+	  padding: 5px 37px;
+	}
+}
+
+@media only screen and (max-width:900px) and (min-width:768px) {
+	/* Navigation Custom Breakpoint */
+	.navbar-toggle {
+	  background-color: rgb(2,155,225);
+	  display: block !important;
+	}
+
+	.navbar-toggle .icon-bar {
+	  background-color: #fff;
+	}
+
+	.navbar-header{
+	    float: none!important;
+	  }
+
+	.collapse {
+	  display: none;
+	}
+
+	.collapse.in {
+	  display: block !important;
+	}
+
+	.navbar-collapse.collapse {
+    	display: none !important;
+	}
+
+	.navbar-collapse.in {
+	    overflow-y: auto;
+	    display:block !important;
+    }
+
+    .nav.navbar-nav {
+	    float: left!important;
+    }
+
+	.nav > li {
+	  display: block;
+	  float: none;
+	  position: relative;
+	}
+
+		.navbar-collapse {
+	  border-top: 1px solid rgb(2,155,225);
+	  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	  margin-top: 2px;
+	  overflow-x: visible;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+}
